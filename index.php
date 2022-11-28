@@ -41,7 +41,7 @@ $calenadario = [
 
     <div>
         <?php foreach ($calenadario as $partita)
-            $partita['casa'] . ':' . $partita['ospite'] . '|' . $partita['puntiCasa'] . '-' . $partita['puntiOspite'];
+            echo $partita['casa'] . ': ' . $partita['ospite'] . ' | ' . $partita['puntiCasa'] . ' - ' . $partita['puntiOspite'] . '<br>';
         ?>
     </div>
 
