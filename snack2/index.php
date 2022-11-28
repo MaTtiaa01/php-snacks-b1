@@ -7,6 +7,7 @@ $age = $_GET['age'];
 $email = $_GET['email'];
 
 
+
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +43,11 @@ $email = $_GET['email'];
         <h1>
             accesso riuscito
         </h1>
-    <?php endif ?>
+    <?php else :?>
+        <h1>
+            accesso negato
+        </h1>
+    <?php ?>    
 
 </body>
 
